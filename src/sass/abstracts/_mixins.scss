@@ -15,13 +15,13 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 @mixin respond($breakpoint) {
   // Phone-xs
   @if $breakpoint == phone-xs {
-    @media (max-width: 35em) {
+    @media (max-width: 20em) {
       @content;
     } //0 - 320px
   }
   // Phone
   @if $breakpoint == phone {
-    @media (max-width: 45.5em) {
+    @media (max-width: 37.5em) {
       @content;
     } //0 - 600px
   }
